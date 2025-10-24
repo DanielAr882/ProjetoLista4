@@ -1,0 +1,74 @@
+body {
+			font-family: cursive; copperblack;
+			background: skyblue;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			margin:  0 auto;
+		}
+
+		form {
+			background:darkcyan;
+			padding: 30px;
+			border-radius: 12px;
+			box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+			text-align: center;
+			align-items: center;
+			text-align: center;
+		}
+
+		select, input[type="text"] {
+			width: 80%;
+			padding: 10px;
+			margin: 10px 0;
+			border: 1px solid #ccc;
+			border-radius: 6px;
+			font-size: 16px;
+			align-items: center;
+			text-align: center;
+		}
+
+		input[type="submit"] {
+			background: linear-gradient(135deg, #6a11cb, #2575fc);
+			color: white;
+			border: none;
+			padding: 12px 25px;
+			font-size: 18px;
+			font-weight: bold;
+			border-radius: 50px;
+			cursor: pointer;
+			transition: all 0.3s ease;
+			box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+			align-items: center;
+			text-align: center;
+		}
+
+		input[type="submit"]:hover {
+			transform: translateY(-5px);
+			box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+			background: linear-gradient(135deg, #2575fc, #6a11cb);
+			align-items: center;
+			text-align: center;
+		}
+
+		label {
+			font-weight: bold;
+			display: block;
+			margin-top: 15px;
+			align-items: center;
+			text-align: center;
+
+		}
+
+		p.result {
+			margin-top: 20px;
+			font-size: 18px;
+			font-weight: bold;
+			color: #333;
+			align-items: center;
+			text-align: center;
+			margin: 50%;
+		}
+		
+
